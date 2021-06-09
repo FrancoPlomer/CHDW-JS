@@ -1,0 +1,708 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    width: 100%;
+    height: 30vh;
+}
+
+.navFather {
+    height: 5rem;
+    border-bottom: 1px solid rgb(206, 54, 54);
+    border-top: 1px solid rgb(206, 54, 54);
+}
+
+.headerVideo {
+    top: 0;
+    z-index: 1;
+    position: relative;
+    background-color: black;
+    height: 90vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.headerVideo video {
+
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.navBarSizzing {
+    margin-left: 40%;
+}
+
+.d-flex button {
+    border: 1px solid rgb(206, 54, 54);
+    color: rgb(253, 247, 247);
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.d-flex input {
+    border: 3px inset rgb(112, 108, 108);
+    background-color: black;
+}
+
+.d-flex input:focus {
+    background-color: #000;
+    border-color: rgb(145, 82, 53);
+    box-shadow: none;
+}
+
+.d-flex button:hover {
+    background-color: rgb(145, 82, 53);
+}
+
+.nav-item .navbar-brand,
+.navBarSizzing {
+    letter-spacing: 2px;
+    transition: 0.5s all;
+    font-size: 12pt !important;
+
+}
+
+.navbar-brand {
+    font-size: 25pt;
+}
+
+.nav-item .navbar-brand:hover,
+.navBarSizzing:hover {
+    border-bottom: 1px solid rgb(214, 66, 66);
+    border-top: 1px solid rgb(214, 66, 66);
+    padding: 0 1px;
+    margin-top: 0.3rem;
+
+}
+
+.headerVideo .container {
+    position: relative;
+    z-index: 2;
+}
+
+.headerVideo .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.text-white h1 {
+    z-index: 30;
+    margin-top: 68vh;
+    letter-spacing: 2px;
+    text-decoration: overline;
+    font-family: 'Squada One', cursive;
+    text-shadow: 3px 3px 0 rgb(58, 43, 143);
+}
+
+@media (pointer: coarse) and (hover: none) {
+    .headerVideo {
+        background: url('/Assets/Video/mikasa-trap-bass-japanese-type-beat-lofi-hiphop-mix.mp4') black no-repeat center center scroll;
+    }
+
+}
+
+.text-white p {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+
+/*Main*/
+.backContainer {
+    height: 26rem;
+    overflow: hidden;
+    background: #535050E6;
+    background: -webkit-linear-gradient(top left, #535050E6, #000000E6);
+    background: -moz-linear-gradient(top left, #535050E6, #000000E6);
+    background: linear-gradient(to bottom right, #535050E6, #000000E6);
+    ;
+}
+
+.backContainerSecond {
+
+    margin: 0;
+    height: 30rem;
+    overflow: hidden;
+    background: #535050E6;
+    background: -webkit-linear-gradient(top left, #535050E6, #000000E6);
+    background: -moz-linear-gradient(top left, #535050E6, #000000E6);
+    background: linear-gradient(to bottom right, #535050E6, #000000E6);
+    ;
+}
+
+.backContainerThird {
+    
+    margin: 0;
+    overflow: hidden;
+    height: 60rem;
+    width: 80rem;
+    background: #535050E6;
+    background: -webkit-linear-gradient(top left, #535050E6, #000000E6);
+    background: -moz-linear-gradient(top left, #535050E6, #000000E6);
+    background: linear-gradient(to bottom right, #535050E6, #000000E6);
+    ;
+}
+
+.backContainerfour {
+    
+    margin: 0;
+    overflow: hidden;
+    height: 40rem;
+    width: 80rem;
+    background: #535050E6;
+    background: -webkit-linear-gradient(top left, #535050E6, #000000E6);
+    background: -moz-linear-gradient(top left, #535050E6, #000000E6);
+    background: linear-gradient(to bottom right, #535050E6, #000000E6);
+    ;
+}
+
+.backContainerfive {
+    
+    margin: 0;
+    overflow: hidden;
+    height: 15rem;
+    width: 80rem;
+    background: #535050E6;
+    background: -webkit-linear-gradient(top left, #535050E6, #000000E6);
+    background: -moz-linear-gradient(top left, #535050E6, #000000E6);
+    background: linear-gradient(to bottom right, #535050E6, #000000E6);
+    ;
+}
+
+.container__Middle-context {
+
+    border: 1px solid rgb(131, 119, 119);
+
+}
+
+.container__Middle-Context-firstCol {
+    height: 20rem;
+}
+
+.buttonSizing {
+    width: 100%;
+}
+
+.dropdown button {
+    text-align: right;
+}
+
+.dropdown button p {
+    display: inline-block;
+    height: 1rem;
+}
+
+.firstDrop {
+    margin-top: 1rem;
+}
+
+.ropaHombre {
+    margin-right: 3rem;
+}
+
+.ropaMujer {
+    margin-right: 3.9rem;
+}
+
+.accesorios {
+    margin-right: 4.3rem;
+}
+
+.remerasSizing {
+    margin-top: -0.5rem;
+}
+
+.pantalonesSizing {
+    margin-bottom: -0.5rem;
+}
+
+.btn-secondary p {
+    padding-right: 20%;
+}
+
+
+.firstDrop button,
+.firstDrop p {
+    background-color: #212529;
+    border: none;
+}
+
+.firstDrop button:focus,
+.firstDrop button:focus,
+.firstDrop button:hover,
+.firstDrop button:hover {
+    background-color: #212529;
+    box-shadow: 2px 4px 0 #000;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.container__Middle-Context-SecondCol {
+    display: flex;
+    height: 30rem;
+    overflow: hidden;
+}
+
+.containerSizzing {
+    position: relative;
+    display: inline-block;
+    padding: 0 !important;
+    padding-left: 0;
+    left: -3rem;
+    width: 1rem;
+}
+
+.containerSizzing img {
+    position: relative;
+    height: 25rem;
+    width: 19rem;
+
+
+
+}
+
+.profile-nameTextSizzing p {
+    font-size: 15pt;
+}
+
+.profile-card-2 {
+    max-width: 300px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+
+.containerSecondSizzing {
+    color: #fff;
+}
+
+.containerSecondSizzing p {
+    font-size: 9pt;
+}
+
+.containerSecondSizzing h2 {
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+#englishIntroduce {
+    margin-top: 1rem;
+}
+
+#ending {
+    margin-top: -.2rem;
+}
+
+@media (max-width: 900px) {
+    .container__Middle-Context-SecondCol {
+        display: none;
+    }
+}
+
+
+/*Parallax*/
+
+.container__Middle-ContextSecond-Body {
+    width: 100%;
+    height: 30rem;
+    background: url(/Assets/images/narutoBack1.jpg);
+    background-position: inherit;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__Middle-ContextSecond-Body h1 {
+    border-top: 6px inset rgb(119, 119, 186);
+    width: 100vw;
+    background: #535050E6;
+    background: -webkit-linear-gradient(top left, #535050E6, #000000E6);
+    background: -moz-linear-gradient(top left, #535050E6, #000000E6);
+    background: linear-gradient(to bottom right, #535050E6, #000000E6);
+    ;
+    font-family: 'Squada One', cursive;
+    margin-top: 20rem;
+    text-align: center;
+    padding: 0;
+    font-size: 40pt;
+    color: #fff;
+
+    background-color: #000;
+
+}
+
+.container__Middle-ContextSecond-Body h1 ins strong {
+    font-family: 'Squada One', cursive;
+    text-shadow: 3px 3px 0 rgb(58, 43, 143);
+}
+
+.container__Middle-ContextSecond-Body p {
+    width: 100vw;
+    background: #535050E6;
+    background: -webkit-linear-gradient(top left, #535050E6, #000000E6);
+    background: -moz-linear-gradient(top left, #535050E6, #000000E6);
+    background: linear-gradient(to bottom right, #535050E6, #000000E6);
+    ;
+    font-family: 'Indie Flower', cursive;
+    margin-top: -.9rem;
+    height: 15rem;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    font-size: 13pt;
+    color: #fff;
+    width: 100%;
+    background-color: #000;
+    border-top: 6px inset rgb(119, 119, 186);
+}
+
+.container__Middle-ContextThird-Body {
+    width: 100%;
+    height: 60rem;
+    background: url('https://images5.alphacoders.com/972/thumb-1920-972160.jpg');
+    background-position: inherit;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafos strong {
+    font-family: 'Squada One', cursive;
+    text-shadow: 3px 3px 0 rgb(58, 43, 143);
+}
+
+.contextDisplay {
+    width: 100vw;
+    height: 90vh;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 0;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+
+}
+
+.cardBack {
+    background: #212529;
+    color: #ffff;
+    text-align: center;
+}
+
+.cardBack .btn {
+    background: #121213;
+    border: 3px inset #52565a;
+}
+
+
+.container__Middle-Contextfour-Body {
+    width: 100%;
+    height: 40rem;
+    background: url('https://images.alphacoders.com/919/thumb-1920-919628.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containerSharingan {
+    width: 90%;
+}
+
+/*base elements*/
+
+#eye {
+    position: absolute;
+    left: 70%;
+    background-color: whitesmoke;
+    height: 190px;
+    width: 300px;
+    border-radius: 65% 0;
+    /*  transform: skew(-5deg);*/
+    border-top: solid black 15px;
+    border-left: solid black 5px;
+    border-right: solid black 7px;
+    border-bottom: solid black 2px;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 1%;
+
+
+}
+
+#sharingan {
+    background-color: firebrick;
+    border-radius: 50%;
+    border: solid black;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    animation: sharingans 1s linear infinite;
+
+}
+
+#black-outline {
+    margin-top: 14%;
+    margin-left: 14%;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    border: solid black;
+    border-radius: 50%;
+
+
+}
+
+.tomoe-circle-1 {
+    position: absolute;
+    margin-top: 0;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+.triangle-1 {
+    height: 18px;
+    width: 10px;
+    background-color: black;
+    position: relative;
+    top: -9px;
+    left: 4px;
+    border-radius: 0% 145% 0% 90%;
+    transform: rotateZ(60deg) skewY(30deg);
+
+
+}
+
+.tomoe-circle-2 {
+    position: absolute;
+    margin-top: 0.6rem;
+    right: -3%;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(60deg);
+}
+
+.triangle-2 {
+    height: 18px;
+    width: 10px;
+    background-color: black;
+    position: relative;
+    top: -9px;
+    left: 4px;
+    border-radius: 0% 145% 0% 90%;
+    transform: rotateZ(60deg) skewY(30deg);
+
+}
+
+.tomoe-circle-3 {
+    position: absolute;
+    margin-top: 90%;
+    right: 45%;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(160deg);
+}
+
+.triangle-3 {
+    height: 18px;
+    width: 10px;
+    background-color: black;
+    position: relative;
+    top: -9px;
+    left: 4px;
+    border-radius: 0% 145% 0% 90%;
+    transform: rotateZ(60deg) skewY(30deg);
+
+}
+
+.pupil {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    left: 35%;
+    top: 35%;
+    box-shadow: 0px 0px 70px black;
+}
+
+/*keyframe animation*/
+@keyframes sharingans {
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.carrousel_Products-Tittle {
+    font-family: 'Suez One', serif;
+    text-align: center;
+    left: 0;
+    margin-top: 10%;
+    font-size: 24pt;
+    width: 100vw;
+    height: 3rem;
+    background-color: #212529;
+    color: #FFF;
+    text-shadow: 4px 4px #384f66;
+}
+
+.container__Middle-Contextfive-Body {
+    width: 100%;
+    height: 40rem;
+    background-color: #212529;
+
+}
+
+.pt-1 strong {
+    font-size: 14pt;
+    font-family: none;
+    letter-spacing: 2px;
+}
+
+.footer-sizing {
+    padding-top: 0;
+}
+
+.socialMediaSizing {
+    margin-top: -1rem;
+}
+
+.copyright-sizing {
+    margin-top: 2.5rem;
+    padding: 0;
+}
+
+.form-sizing {
+    height: 2rem;
+}
+
+.buttonSizing {
+    width: 100%;
+}
+
+.btn--twitter {
+    background-color: #55acee;
+    padding: 0.5rem;
+    border-radius: 20%;
+}
+
+.btn--facebook {
+    background-color: #3a5795;
+    padding: 0.5rem;
+    border-radius: 20%;
+}
+
+.btn--send-mail {
+    background-color: #C25E30;
+    padding: 0.5rem;
+    border-radius: 20%;
+}
+
+.btn--instagram {
+    background-color: #AF6DB0;
+    padding: 0.5rem;
+    border-radius: 20%;
+}
+
+.btn--linkedin {
+    background-color: #5D6A90;
+    padding: 0.5rem;
+    border-radius: 20%;
+}
+
+.btn--github {
+    background-color: #B0B2B6;
+    padding: 0.5rem;
+    border-radius: 20%;
+}
